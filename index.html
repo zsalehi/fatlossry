@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fatlossry</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:500"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-info">
+        <h1 class="welcome">Welcome to Fatlossry!</h1>
+        <h4>
+          We will guide you on your fat-loss journey! Our method just works. And
+          it requires no effort from you at all!
+        </h4>
+        <p>What's your name?</p>
+        <input type="text" class="name" id="name" />
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="unknown">I prefer not to say</option>
+        </select>
+
+        <p>What is your current weight?</p>
+        <input type="number" name="weight" id="weight" />
+        <select name="units" id="units">
+          <option value="pounds">lbs</option>
+          <option value="kgs">kgs</option>
+        </select>
+
+        <p>
+          What is your daily work/exercise life like? (Don't worry we don't
+          judge!)
+        </p>
+        <select name="lifestyl" id="lifestyle">
+          <option value="sedentary"
+            >I work in a seating position for a long time, but I try to train 3
+            - 5 times a week</option
+          >
+          <option value="active"
+            >I work in an active environment, and I try to train 3 - 5 times a
+            week</option
+          >
+          <option value="inactive"
+            >I don't train much at all, I don't know what to do.</option
+          >
+        </select>
+
+        <p>What is your food intake lifestyle?</p>
+        <select name="food-type" id="food-type">
+          <option value="highFat">I have a high fat diet.</option>
+          <option value="highCarb">I have a high carb diet.</option>
+          <option value="balanced">I am indifferent to fat or carbs.</option>
+        </select>
+      </div>
+      <button type="submit" id="generate">Generate!</button>
+
+      <div class="output-info">
+        <p id="output"></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

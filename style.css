@@ -1,0 +1,15 @@
+body {
+  background-color: azure;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 10% 20% auto 20% 10%;
+  grid-template-rows: 25% 100px auto;
+}
+.input-info {
+  grid-column-start: 3;
+  grid-column-end: three;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
